@@ -1,0 +1,7 @@
+{"name"    : "[COLOR white][B]Newf[/B][/COLOR]",
+ "plugin"       : "plugin.video.newf",
+ "priority"     : 10,
+ "id"           : "newf",
+ "movies"       : [[{"link": "plugin://plugin.video.newf/?mode=play_media&vid_type=movie&query={name}&year={year}&poster={info[poster]}&plot={info[plot]}&title={title}&tmdb_id={id}"}]],
+ "tvshows"      : [[{"link": "plugin://plugin.video.newf/?mode=play_media&vid_type=episode&query={showname}&year={year}&season={season}&episode={episode}&ep_name={title}&tmdb_id={tmdb}&premiered={firstaired}&plot={info[plot]}"}]]
+}
