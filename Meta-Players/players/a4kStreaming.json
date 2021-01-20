@@ -1,0 +1,26 @@
+{"name"    : "[COLOR deepskyblue][B]a4kStreaming[/B][/COLOR]",
+ "repository"   : "a4kStreaming.repository",
+ "plugin"       : "plugin.video.a4kStreaming",
+ "priority"     : 10,
+ "id"           : "a4kStreaming",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.a4kstreaming?action=play&id={imdb}",
+    "steps"     : [],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.a4kstreaming?action=play&id={epimdb}",
+    "steps"     : [],
+    "action"    : "PLAY"
+   }
+  ]
+ ]
+}
